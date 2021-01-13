@@ -1,0 +1,64 @@
+body{
+    background: url('../brewing-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    padding: 10px 40px;
+}
+.content-div{
+    justify-content: center;
+}
+
+.card-img-custom{
+    height: 300px;
+    width: 120px;
+}
+.card{
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: row;
+    background-image: linear-gradient(60deg, #FBD81E 0%, #EE850E 100%);
+    border: 1px solid black;
+}
+.card-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card-body{
+    padding: 2px;
+    width: 50%;
+}
+.title-emoji{
+    font-size: 28px;
+}
+.beer-quote{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+.beer-man{
+    height: 4em;
+    width: 3em;
+    top: -2em;
+    position: absolute;
+    left: -1em;
+    transform: rotate(-30deg);
+}
+.badge{
+    width: 12rem;
+}
+.food-text{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.brew-tips{
+    font-size: 12px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
